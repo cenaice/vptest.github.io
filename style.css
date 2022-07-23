@@ -1,0 +1,244 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00a0c6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 18px;
+    color: #1F2937;
+    margin: 16px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+div {
+    padding: 75px;
+}
+
+/* Box 1 Items */
+
+.header_logo {
+    background-color: #1F2937;
+    position: sticky;
+    padding: 0;
+    padding-left: 75px;
+    padding-right: 75px;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.header_logo_text {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+
+}
+
+.main_text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.secondary_text {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.box1_img {
+    height: 100%;
+    width: 100%;
+    max-height: 700px;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* BOX 2 ITEMS */
+
+.info_header_text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center
+}
+
+.quote_text {
+    display: flex;
+    justify-content: center;
+}
+
+.box2_images {
+    width:  300px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #1F2937;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+}
+
+/* BOX 3 ITEMS */
+
+.big {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+
+}
+
+.author {
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+/* Box 4 Items */
+
+.box4_items {
+background-color: #3882F6;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 25px;
+display: flex;
+justify-content: space-between;
+}
+
+.sign_up {
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.sign_up_desc {
+    font-size: 18px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.buttonSign {
+}
+
+/* Copyright */
+
+.copyright {
+    background-color: #1F2937;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.copy_font {
+    color: white;
+}
+
+/* Box Containers */
+
+.box1_container {
+    background-color: #1F2937;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box2_container {
+    background-color: white;
+}
+
+.box3_container {
+    background-color: #E5E7EB;
+    background-image: url("cherry-blossom-falling.gif");
+    background-repeat: repeat; 
+    padding-top:150px;
+    padding-bottom: 150px;
+    padding-left: 324px;
+    padding-right:324px;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    
+}
+
+.box4_container {
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+    
+}
+
+
+
+.goose {
+    max-height: 40px;
+    max-width: 40px;
+    padding-right: 15px;
+    display: flex;
+}
+
+
+
+/* Button */
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
